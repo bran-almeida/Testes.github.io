@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+html{
+    font-size: 62.5%;
+}
 body {
 }
 
@@ -10,20 +13,22 @@ div {
     max-width: 1500px;
 }
 
-header h1{
+div h1{
     border: 3px solid darkblue;
     width: 90%;
     margin: 3% auto 1% auto;
     text-align: center;
+    font-size: 2rem;
 }
 
 section {
     display: block;
     float: left;
     width: 90%;
-    max-width: 450px;
+    max-width: 600px;
+    min-width: 150px;
     height: 500px;
-    margin-left: 5%;
+    margin: 10px 2% 10px 5%;
     border: 3px solid darkgreen;    
 }
 
@@ -31,10 +36,12 @@ aside {
     display: block;
     float: right;
     width: 90%;
-    max-width: 450px;
-    margin-right: 5%;
+    max-width: 500px;
+    min-width: 150px;
+    height: 500px;
+    margin: 10px 5% 10px 0%;
     border: 3px solid brown;
-    height: 500px
+    
 } 
 
 footer {
@@ -45,10 +52,19 @@ footer {
     border: 3px solid darkred;
 }
 
-@media (max-width: 1141px){
+@media (max-width: 1285px){
+    
+    section {
+        width: au
+        display: flow-root;
+        float: none;
+        margin: 10px auto 10px auto;
+    }
+
     aside {
         display: flow-root;
         float: none;
-        margin: auto;
+        margin: 10px auto 10px auto;
     }
+
 }
