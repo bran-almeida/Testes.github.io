@@ -3,7 +3,9 @@
 html{
     font-size: 62.5%;
 }
+
 body {
+    font-size: 1.6rem;
 }
 
 div {
@@ -11,6 +13,14 @@ div {
     border: 3px solid black;
     margin: auto;
     max-width: 1500px;
+}
+
+div p {
+    font-size: 1.4rem;
+    text-align: justify;
+    margin: 3% auto 3% auto;
+    width: 90%;
+    border: 1px black solid;
 }
 
 div h1{
@@ -29,7 +39,7 @@ section {
     min-width: 150px;
     height: 500px;
     margin: 10px 2% 10px 5%;
-    border: 3px solid darkgreen;    
+    border: 3px solid darkgreen;  
 }
 
 aside {
@@ -45,17 +55,17 @@ aside {
 } 
 
 footer {
-    width: 100%;
+    text-align: center;
+    width: 90%;
     clear: both;
-    margin: auto;
-    
+    margin: 0 auto 1% auto;
     border: 3px solid darkred;
+
 }
 
 @media (max-width: 1285px){
     
     section {
-        width: au
         display: flow-root;
         float: none;
         margin: 10px auto 10px auto;
@@ -65,6 +75,7 @@ footer {
         display: flow-root;
         float: none;
         margin: 10px auto 10px auto;
+        max-width: 600px;
     }
 
 }
