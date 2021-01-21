@@ -63,7 +63,7 @@ footer {
 
 }
 
-@media (max-width: 1285px){
+@media (max-width: 1000px){
     
     section {
         display: flow-root;
